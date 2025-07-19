@@ -7,8 +7,9 @@ void linearSearch(int a[],int range,int search)
 	{
 		if(a[i]==search)
 		{
-			c++;	
+				
 			printf("number is found at %d",i+1);
+			c++;
 		    break;
 	    }	
 	}
