@@ -1,6 +1,6 @@
 // Stack program using array 
 #include<stdio.h>
-#include<stdlib.h>
+//#include<stdlib.h>  // no need 
 #include<stdbool.h>
 #define SIZE 10
 int top=-1;
@@ -51,6 +51,7 @@ int stack[SIZE];
 int display()
 {
 	int i;  // for traverse the stack
+	printf("your stack is :");
 	for (i=0;i<=top;i++)
 	{
 		printf("%d ",stack[i]);
@@ -76,9 +77,11 @@ int main()
    	  	printf("enter data:");
    	  	scanf("%d",&data);
    	  	push(data);
+   	  	display();
    	  	break;
    	  case 2:
    	  	pop();
+   	  	display();
    	  	break;
    	  case 3:
    	  	display();
@@ -95,7 +98,5 @@ int main()
   push(20);
   push(30);
   push(40);
-  display();
-  
-  	
+  display(); 	
 }
