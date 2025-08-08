@@ -87,16 +87,12 @@ int main()
    	  	display();
    	  	break;
    	  case 4:
-   	  	printf("exiting the program..");
+   	  	printf("thanks for using the program..");
    	  	return 0;
    	  default :
    	  	printf("\n invalid selection..");
    	  	break;
    }
-   }
-  push(10);
-  push(20);
-  push(30);
-  push(40);
-  display(); 	
+   }	
 }
+
