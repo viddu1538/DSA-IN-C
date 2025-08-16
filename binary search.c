@@ -1,3 +1,4 @@
+// this progaram is about binary search 
 #include<stdio.h>
 int  main()
 {
@@ -31,4 +32,5 @@ int  main()
 	if(l>r){
 		printf("number is not found ");
 	}	
+
 }
