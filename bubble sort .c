@@ -1,3 +1,4 @@
+// bubble sort
 #include<stdio.h>
 int main(){  
 	int i,k,range;  // k= outer loop , i= inner loop , range = user inout size
@@ -27,4 +28,5 @@ int main(){
 	{
 		printf("%d ",a[i]);
 	}
+
 }
